@@ -1,0 +1,8 @@
+Cada alumno realizara un modulo en python para el desarrollo de una
+calculadora simple.
+La calculadora debera de:
+
+-tener una funcion para calcular el area de figuras basicas
+-una funcion para calcular perimentros
+
+#el trabajo se debera de realizar usando ramas
