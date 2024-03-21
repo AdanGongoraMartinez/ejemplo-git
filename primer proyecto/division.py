@@ -1,12 +1,6 @@
 import validador
 
-def dividir(a, b):
-    validacion, mensaje = validador.validar(a, b)
-    if validacion:
-        if b != 0:
-            return a / b
-        else:
-            return "Error: No se puede dividir entre cero"
-    else:
-        return "Error: " + mensaje
-
+def dividir(num1, num2):
+     resultado= num1 / num2
+     return resultado 
+  

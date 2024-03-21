@@ -2,6 +2,7 @@ import suma
 import resta
 import multiplicacion
 import division
+import validador
 
 def validar_numero(prompt):
     while True:
@@ -27,8 +28,9 @@ while True:
         print("¡Hasta luego!")
         break
     elif opcion in {'1', '2', '3', '4'}:
-        num1 = validar_numero("Ingrese el primer número: ")
-        num2 = validar_numero("Ingrese el segundo número: ")
+        
+        num1 = validador.validador(validar_numero("Ingrese el primer número: "))
+        num2 = validador.validador(validar_numero("Ingrese el segundo número: "))
 
         if opcion == '1':
             print("Resultado:", suma.sumar(num1, num2))
